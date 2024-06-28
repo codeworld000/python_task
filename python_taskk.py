@@ -56,9 +56,8 @@ for i in range(row):
         print()
         for h in range(col+1):
                 if h%2==0:
-                  print("\\",end="")
-                else:
-                    print("___/",end="   ")
+                  print("\\___/",end="   ")
+                
 print()
 
 
