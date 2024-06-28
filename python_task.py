@@ -44,9 +44,8 @@ for i in range(row):
                 print()
                 for h in range(col):
                         if  h %2 ==0 :
-                            print("\\",end="")
-                        else:
-                            print("___/",end="   ")
+                            print("\\___/",end="")
+                        
     else:
         for l in range(col+1):
             if  l % 2 == 0:
