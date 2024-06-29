@@ -54,7 +54,7 @@ for i in range(row):
             else:
                 print("\\___",end="")
         print()
-        for h in range(col+1):
+        for h in range(col):
                 if h%2==0:
                   print("\\___/",end="   ")
                 
